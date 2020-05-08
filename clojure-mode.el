@@ -1632,6 +1632,8 @@ work).  To set it from Lisp code, use
   (deftest :defn)
   (are 2)
   (use-fixtures :defn)
+  (thrown? 1)
+  (thrown-with-msg? 2)
 
   ;; core.logic
   (run :defn)
